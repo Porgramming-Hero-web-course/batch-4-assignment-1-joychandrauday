@@ -3,5 +3,4 @@
         return keys.every((key) => key in obj);
     }
     
-    
 }

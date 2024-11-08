@@ -4,5 +4,4 @@
         return obj[prop];
     }
 
-    
 }
