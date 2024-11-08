@@ -4,7 +4,7 @@ A typeGuard is a conditional checking of types in TypeScript which allows TypeSc
 
 ## 1. `typeof` Type Guard
 
-`typeof` type guard is used to determine the type of primitive values like string, boolean, number, symbol, etc. It is generally used for narrowing down types when dealing with union types that include primitives.
+`typeof` type guard is used to determine the type of primitive values like `string`, `boolean`, `number`, `symbol`, etc. It is generally used for narrowing down types when dealing with union types that include primitives.
 
 ```typescript
 function printValue(value: string | number) {
